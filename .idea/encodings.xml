@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hxmall-shop-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-coupon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-coupon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-geteway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-geteway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-member/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-third-part/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-third-part/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-ware/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hxmall-shop-ware/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-generator/src/main/java" charset="UTF-8" />
+  </component>
+</project>
