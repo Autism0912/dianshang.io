@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: hxmallShopThirdParty
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5tHeLgXEjT6b9HVcoW1d
+      secret-key: kfKslVdA9EU2mYDeLQ3oJqTMIoAsCH
+      oss:
+        endpoint: oss-cn-chengdu.aliyuncs.com
+        bucket: hxmall-shop-upload
+server:
+  port: 30000

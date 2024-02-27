@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hxzy</groupId>
+    <artifactId>hxmall-shop</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>hxmall-shop</name>
+    <description>hxmall-shop</description>
+
+    <modules>
+        <module>hxmall-shop-common</module>
+        <module>hxmall-shop-admin</module>
+        <module>renren-generator</module>
+        <module>hxmall-shop-coupon</module>
+        <module>hxmall-shop-ware</module>
+        <module>hxmall-shop-order</module>
+        <module>hxmall-shop-member</module>
+        <module>hxmall-shop-geteway</module>
+        <module>hxmall-shop-third-part</module>
+        <module>hxmall-shop-product</module>
+        <module>hxmall-shop-search</module>
+    </modules>
+
+</project>

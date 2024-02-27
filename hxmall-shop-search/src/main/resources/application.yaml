@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hxmallShopSearch
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+server:
+  port: 16000
+
+elasticsearch:
+  host: 192.168.56.101:9200

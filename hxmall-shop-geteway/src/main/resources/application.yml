@@ -1,0 +1,68 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: hxmall_shop_coupon_route
+          uri: lb://hxmallShopCoupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+
+        - id: hxmall_shop_member_route
+          uri: lb://hxmallShopMember
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+
+        - id: hxmall_shop_ware_route
+          uri: lb://hxmallShopWare
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+
+        - id: hxmall_shop_order_route
+          uri: lb://hxmallShopOrder
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+
+        - id: hxmall_shop_order_product_route
+          uri: lb://hxmallShopProduct
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+
+        - id: hxmall_shop_Third_part_route
+          uri: lb://hxmallShopThirdParty
+          predicates:
+            - Path=/api/thirdparty/oss/**
+          filters:
+            - RewritePath=/api/?(?<segment>.*),/$\{segment}
+
+        - id: search_hxmall_host_route
+          uri: lb://hxmallShopSearch
+          predicates:
+            - Host=search.hxmall.com
+
+        # 这个一定得放在下面 因为 路由地址配置是有优先级的 地址越精准 越往上面放,越不精确 越往下面放
+        - id: hxmall_shop_admin_route
+          uri: lb://hxmallShopAdmin
+          predicates:
+            - Path=/api/**
+          # 我们需要将api替换成renren-fast
+          filters:
+            - RewritePath=/api/?(?<segment>.*), /renren-fast/$\{segment}
+
+        - id: hxmall_host_route
+          uri: lb://hxmallShopProduct
+          predicates:
+            - Host=**.hxmall.com
+
+
+
+

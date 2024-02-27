@@ -1,0 +1,30 @@
+## 应用服务 WEB 访问端口
+#server:
+#  port: 7000
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/hxmall_pms
+#    password: root
+#    username: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  cloud:
+#    nacos:
+#      server-addr: 127.0.0.1:8848
+#  application:
+#    name: hxmallShopProduct
+#mybatis-plus:
+#  mapper-locations: classpath:/mapper/**/*.xml
+#  global-config:
+#    db-config:
+#      id-type: auto
+#
+ipAddr: 192.168.56.101
+spring:
+  redis:
+    host: ${ipAddr}
+  cache:
+    type: redis  #使用的缓存类型
+    redis:
+      time-to-live: 3600s # 设置超时时间
+      use-key-prefix: true # 是否使用前缀
+      cache-null-values: true # 缓存控制

@@ -1,0 +1,21 @@
+# 应用服务 WEB 访问端口
+#server:
+#  port: 9000
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/hxmall_sms
+#    password: root
+#    username: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  cloud:
+#    nacos:
+#      server-addr: 127.0.0.1:8848
+#      config:
+#        server-addr: 127.0.0.1:8848
+#  application:
+#    name: hxmallShopCoupon
+#mybatis-plus:
+#  mapper-locations: classpath:/mapper/**/*.xml
+#  global-config:
+#    db-config:
+#      id-type: auto
